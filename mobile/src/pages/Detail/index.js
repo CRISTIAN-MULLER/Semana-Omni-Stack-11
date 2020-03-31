@@ -47,6 +47,9 @@ Linking.openURL(`whatsapp://send?phone=5527998851449&text=${message}`);
                         <Text style={styles.incidentProperty}>CASO:</Text>
                         <Text style={styles.incidentValue}>{incident.title}</Text>
                         
+                        <Text style={styles.incidentProperty}>DESCRIÇÃO:</Text>
+                        <Text style={styles.incidentValue}>{incident.description}</Text>
+
                         <Text style={styles.incidentProperty}>VAOR:</Text>
                         <Text style={styles.incidentValue}>{Intl.NumberFormat('pt-BR', {
                             style: 'currency', 
